@@ -1,0 +1,51 @@
+{
+  "name": "fs-object-streaming-tools",
+  "version": "1.0.0",
+  "description": "Helper tools to simplify file handling in node streams",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "eslint --fix .",
+    "test": "node $NODE_DEBUG_OPTION node_modules/cl-node-dev-tools/run-tests.js",
+    "tdd": "node $NODE_DEBUG_OPTION node_modules/cl-node-dev-tools/run-tests.js continuously"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noisygerman/fs-object-streaming-tools.git"
+  },
+  "keywords": [
+    "object",
+    "streams",
+    "object streams",
+    "node streams",
+    "nodejs",
+    "node js",
+    "backend",
+    "fs"
+  ],
+  "author": {
+    "name": "Markus Westerholz",
+    "email": "mwesterholz@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Steven Winde",
+      "email": "swinde@copperleaf.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/copperleaftech/fs-object-streaming-tools/issues"
+  },
+  "homepage": "https://github.com/copperleaftech/fs-object-streaming-tools#readme",
+  "devDependencies": {
+    "cl-node-dev-tools": "git+https://github.com/noisygerman/cl-node-dev-tools.git",
+    "mock-fs": "^4.3.0"
+  },
+  "dependencies": {
+    "async": "^2.4.0",
+    "object-stream-tools": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
